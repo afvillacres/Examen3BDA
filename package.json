@@ -1,0 +1,17 @@
+{
+  "name": "tecnomega-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "start": "node index.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "redis": "^5.10.0",
+    "response-time": "^2.3.4"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "clientes": [
+    {
+      "cedula": "0102030401",
+      "nombres": "Juan Perez",
+      "email": "juan@mail.com",
+      "telefono": "099111222",
+      "edad": 30,
+      "genero": "M"
+    }
+  ],
+  "productos": [
+    {
+      "codigo": "P001",
+      "nombre": "Laptop Lenovo",
+      "categoria": "Computo",
+      "precio": 850,
+      "stock": 10
+    }
+  ],
+  "pedidos": [
+    {
+      "codigo": "PED001",
+      "clienteId": "0102030401",
+      "fecha": "2026-01-10",
+      "subtotal": 850,
+      "iva": 102,
+      "total": 952,
+      "estado": "PAGADO"
+    }
+  ],
+  "detalle_pedido": [
+    {
+      "codigo": "DET001",
+      "productoId": "P001",
+      "cantidad": 1,
+      "detalle": "Laptop Lenovo",
+      "precioUnit": 850
+    }
+  ]
+}
